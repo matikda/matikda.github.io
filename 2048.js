@@ -38,11 +38,12 @@ function setGame() {
 }
 
 function updateTile(tile, num) {
-    tile.innerText = "";
+    tile.innerHTML = "";
     tile.classList.value = ""; //clear the classList
     tile.classList.add("tile");
     if (num > 0) {
-        tile.innerText = num.toString();
+        let imgTag = `<img src="${num}.png" alt="${num}" />`;
+        tile.innerHTML = imgTag;
         if (num <= 4096) {
             tile.classList.add("x"+num.toString());
         } else {
