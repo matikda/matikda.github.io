@@ -35,66 +35,79 @@ hr {
 /* colored tiles */
 
 .x2 {
-    background-color: #eee4da;
-    color: #727371;
+    background-image: url('image/zendaya-2');
+  background-repeat: no-repeat;
+  color: #776e65;
 }
 
 .x4 {
-    background-color: #ece0ca;
-    color: #727371;
+   background-image: url('image/zendaya-4');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x8 {
-    background-color: #f4b17a;
-    color: white;
+   background-image: url('image/zendaya-8');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x16{
-    background-color: #f59575;
-    color: white;
+   background-image: url('image/zendaya-16');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x32{
-    background-color: #f57c5f;
-    color: white;
+   background-image: url('image/zendaya-32');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x64{
-    background-color: #f65d3b;
-    color: white;
+   background-image: url('image/zendaya-64');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x128{
-    background-color: #edce71;
-    color: white;
+   background-image: url('image/zendaya-128');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x256{
-    background-color: #edcc63;
-    color: white;
+   background-image: url('image/zendaya-256');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x512{
-    background-color: #edc651;
-    color: white;
+   background-image: url('image/zendaya-512');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x1024{
-    background-color: #eec744;
-    color: white;
+   background-image: url('image/zendaya-1024');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x2048{
-    background-color: #ecc230;
-    color: white;
+   background-image: url('image/zendaya-2048');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x4096 {
-    background-color: #fe3d3d;
-    color: white;
+   background-image: url('image/zendaya-4096');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
 
 .x8192 {
-    background-color: #ff2020;
-    color: white;
+   background-image: url('image/zendaya-8192');
+   background-repeat: no-repeat;
+   color: #776e65;
 }
