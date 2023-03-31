@@ -74,24 +74,26 @@ document.addEventListener('keyup', (e) => {
 })
 
 function filterZero(row){
-    return row.filter(num => num != 0); //create new array of all nums != 0
+    return row.filter(image => image != ""); // create new array of all images that are not empty string
 }
 
 function slide(row) {
-    //[0, 2, 2, 2] 
-    row = filterZero(row); //[2, 2, 2]
-    for (let i = 0; i < row.length-1; i++){
-        if (row[i] == row[i+1]) {
-            row[i] *= 2;
-            row[i+1] = 0;
-            score += row[i];
+    // remove empty tiles from row
+    row = filterZero(row);
+    // combine tiles with the same image
+    for (let i = 0; i < row.length - 1; i++) {
+        if (row[i] === row[i+1]) {
+            row[i] += row[i+1];
+            row[i+1] = "";
+            score += parseInt(row[i]); // update score
         }
-    } //[4, 0, 2]
-    row = filterZero(row); //[4, 2]
-    //add zeroes
+    }
+    // remove empty tiles again
+    row = filterZero(row);
+    // add empty tiles at end of row to fill row to 4 tiles
     while (row.length < columns) {
-        row.push(0);
-    } //[4, 2, 0, 0]
+        row.push("");
+    }
     return row;
 }
 
