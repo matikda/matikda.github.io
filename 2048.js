@@ -42,7 +42,7 @@ function updateTile(tile, num) {
     tile.classList.value = ""; //clear the classList
     tile.classList.add("tile");
     if (num > 0) {
-        let imgTag = `<img src="${num}.png" alt="${num}" />`;
+        let imgTag = `<img src="zendaya-${num}.jpg" alt="${num}" />`;
         tile.innerHTML = imgTag;
         if (num <= 4096) {
             tile.classList.add("x"+num.toString());
