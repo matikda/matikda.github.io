@@ -181,10 +181,6 @@ function setTwo() {
         updateTile(tile, value);
     }
 }
-In this updated setTwo() function, we first find all the empty spots on the board and store them in the emptySpots array. We then check if there are any empty spots available, and if there are, we choose a random empty spot from the emptySpots
-
-
-
 
 
 function hasEmptyTile() {
