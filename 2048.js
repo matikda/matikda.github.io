@@ -161,23 +161,31 @@ function slideDown() {
 }
 
 function setTwo() {
-    if (!hasEmptyTile()) {
-        return;
-    }
-    let found = false;
-    while (!found) {
-        //find random row and column to place a 2 in
-        let r = Math.floor(Math.random() * rows);
-        let c = Math.floor(Math.random() * columns);
-        if (board[r][c] == 0) {
-            board[r][c] = 2;
-            let tile = document.getElementById(r.toString() + "-" + c.toString());
-            tile.innerText = "2";
-            tile.classList.add("x2");
-            found = true;
+    // find an empty spot on the board
+    let emptySpots = [];
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            if (board[r][c] == 0) {
+                emptySpots.push([r, c]);
+            }
         }
     }
+    if (emptySpots.length > 0) {
+        // choose a random empty spot and set it to 2 or 4
+        let spot = emptySpots[Math.floor(Math.random() * emptySpots.length)];
+        let r = spot[0];
+        let c = spot[1];
+        let value = Math.random() < 0.9 ? 2 : 4;
+        board[r][c] = value;
+        let tile = document.getElementById(r.toString() + "-" + c.toString());
+        updateTile(tile, value);
+    }
 }
+In this updated setTwo() function, we first find all the empty spots on the board and store them in the emptySpots array. We then check if there are any empty spots available, and if there are, we choose a random empty spot from the emptySpots
+
+
+
+
 
 function hasEmptyTile() {
     let count = 0;
