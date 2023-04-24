@@ -25,7 +25,7 @@ hr {
     width: 90px;
     height: 90px;
     border: 5px solid #192640;
-    border-radius: 25px;
+    border-radius: 5px;
     
     font-size: 40px;
     font-weight: bold;
@@ -41,76 +41,89 @@ hr {
   background-image: url('image/zendaya-2.jpg');
   background-repeat: no-repeat;
   color: #a65d5d;
+  border-radius: 5px;
 }
 
 .x4 {
    background-image: url('image/zendaya-4.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x8 {
    background-image: url('image/zendaya-8.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x16{
    background-image: url('image/zendaya-16.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x32{
    background-image: url('image/zendaya-32.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x64{
    background-image: url('image/zendaya-64.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x128{
    background-image: url('image/zendaya-128.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x256{
    background-image: url('image/zendaya-256.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x512{
    background-image: url('image/zendaya-512.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x1024{
    background-image: url('image/zendaya-1024.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x2048{
    background-image: url('image/zendaya-2048.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x4096 {
    background-image: url('image/zendaya-4096.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
 
 .x8192 {
    background-image: url('image/zendaya-8192.jpg');
    background-repeat: no-repeat;
    color: #a65d5d;
+   border-radius: 5px;
 }
