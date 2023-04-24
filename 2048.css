@@ -14,7 +14,8 @@ hr {
 
     background-color: #3f61a6;
     border: 6px solid #282b59;
-
+    border-radius: 25px;
+    
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +25,8 @@ hr {
     width: 90px;
     height: 90px;
     border: 5px solid #192640;
-
+    border-radius: 25px;
+    
     font-size: 40px;
     font-weight: bold;
     display: flex;
@@ -36,7 +38,7 @@ hr {
 /* colored tiles */
 
 .x2 {
-    background-image: url('image/zendaya-2.jpg');
+  background-image: url('image/zendaya-2.jpg');
   background-repeat: no-repeat;
   color: #a65d5d;
 }
