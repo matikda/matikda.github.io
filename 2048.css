@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: #7e88bf;
 }
 
 hr {
@@ -11,8 +12,8 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-color: #7e88bf;
-    border: 6px solid #3f61a6;
+    background-color: #3f61a6;
+    border: 6px solid #282b59;
 
     margin: 0 auto;
     display: flex;
@@ -22,7 +23,7 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #282b59;
+    border: 5px solid #192640;
 
     font-size: 40px;
     font-weight: bold;
