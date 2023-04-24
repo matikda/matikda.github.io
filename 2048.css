@@ -11,8 +11,8 @@ hr {
     width: 400px;
     height: 400px;
 
-    background-color: #cdc1b5;
-    border: 6px solid #bbada0;
+    background-color: #7e88bf;
+    border: 6px solid #3f61a6;
 
     margin: 0 auto;
     display: flex;
@@ -22,7 +22,7 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #bbada0;
+    border: 5px solid #282b59;
 
     font-size: 40px;
     font-weight: bold;
@@ -37,77 +37,77 @@ hr {
 .x2 {
     background-image: url('image/zendaya-2.jpg');
   background-repeat: no-repeat;
-  color: #776e65;
+  color: #a65d5d;
 }
 
 .x4 {
    background-image: url('image/zendaya-4.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x8 {
    background-image: url('image/zendaya-8.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x16{
    background-image: url('image/zendaya-16.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x32{
    background-image: url('image/zendaya-32.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x64{
    background-image: url('image/zendaya-64.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x128{
    background-image: url('image/zendaya-128.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x256{
    background-image: url('image/zendaya-256.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x512{
    background-image: url('image/zendaya-512.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x1024{
    background-image: url('image/zendaya-1024.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x2048{
    background-image: url('image/zendaya-2048.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x4096 {
    background-image: url('image/zendaya-4096.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
 
 .x8192 {
    background-image: url('image/zendaya-8192.jpg');
    background-repeat: no-repeat;
-   color: #776e65;
+   color: #a65d5d;
 }
