@@ -38,7 +38,7 @@ hr {
 /* colored tiles */
 
 .x2 {
-  background-image: <img src="zendaya-2.jpg" alt="Zendaya" width="300" height="300">;
+  background-image: url('image/zendaya-2.jpg');
   background-repeat: no-repeat;
   color: #a65d5d;
   border-radius: 5px;
